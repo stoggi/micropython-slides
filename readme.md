@@ -9,8 +9,10 @@ This repo contains the slides used for the MicroPython presentation at the NZPUG
 3. Open a serial connection with `screen /dev/ttyUSB0`. (You may need root permissions, otherwise add yourself to the `dialout` group)
 4. When prompted with the interactive shell start the slides
 
-    import slides
-    slides.play()
+```python
+import slides
+slides.play()
+```
 
 ## Future Work
 
